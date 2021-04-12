@@ -1,0 +1,82 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Amatic SC', sans-serif;
+    background-color: rgb(144, 238, 144);
+    color: rgb(0, 54, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1
+{
+    color: rgb(245, 245, 245, 0.75);
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+form
+{
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.3);
+    max-width: 100%;
+    width: 400px;
+}
+
+.input
+{
+    border: none;
+    color:  rgb(0, 54, 0);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+.input::placeholder
+{
+    color:  rgb(178, 192, 178);
+}
+
+.input:focus
+{
+   outline-color: rgb(0, 54, 0);
+}
+
+.todos
+{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.todos li
+{
+    border-top: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    font: 5rem;
+    padding: 1rem 2rem;
+}
+
+.todos li.completed
+{
+    color: rgb(87, 86, 86);
+    text-decoration: line-through;
+}
+
+small
+{
+    color: rgba(253, 253, 253, 0.644);
+    margin-top: 3rem;
+    text-align: center;
+    font-size: large;
+}
