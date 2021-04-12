@@ -12,8 +12,7 @@ body
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    height: 75vh;
 }
 
 h1
@@ -75,8 +74,34 @@ form
 
 small
 {
-    color: rgba(253, 253, 253, 0.644);
+    color: rgb(255, 255, 255);
     margin-top: 3rem;
     text-align: center;
     font-size: large;
+}
+
+footer
+{
+    margin-top: 20px;
+    width: 100%;
+}
+
+a{
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.footer-name
+{
+    display: inline-block;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    right: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+    position: fixed;
+    justify-content: space-between;
 }
